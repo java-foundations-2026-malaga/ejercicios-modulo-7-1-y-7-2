@@ -4,6 +4,8 @@
 
 Aplica interés mensual y controla el vencimiento.
 
+Crea la clase `Bond` con `balance = 1000`, `monthlyRate = 0.005` y `monthsRemaining = 2`, y el método `earnInterest()`: si quedan meses, suma al saldo el interés del mes, resta un mes y muestra `Meses restantes` y `Saldo`; si no quedan, muestra `El bono ha vencido`. Llama a `earnInterest()` tres veces.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -32,4 +34,5 @@ El bono ha vencido
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

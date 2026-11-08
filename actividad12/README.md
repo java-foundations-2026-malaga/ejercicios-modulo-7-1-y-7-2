@@ -4,6 +4,8 @@
 
 Calcula el interés mensual con calcInterest().
 
+Crea la clase `SavingsAccount` con `balance = 1200` e `interestRate = 0.05` (anual) y el método `calcInterest()`, que calcula el interés mensual: `balance * interestRate / 12`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Interés mensual: 5.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

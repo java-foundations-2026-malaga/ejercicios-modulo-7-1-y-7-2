@@ -4,6 +4,8 @@
 
 Asigna una referencia a otra y observa el cambio compartido.
 
+Crea la clase `Prisoner`, crea `bubba` y asigna `twitch = bubba`. Cambia el nombre a `Nuevo nombre` a través de una de las referencias, muestra el nombre desde ambas y compáralas con `==`.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -30,4 +32,5 @@ Misma referencia: true
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

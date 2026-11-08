@@ -4,6 +4,8 @@
 
 Incrementa el saldo mediante deposit(double).
 
+Añade el método `void deposit(double amount)`. En `main` crea una cuenta con saldo `1000`, deposita `450` y muestra el saldo.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -28,4 +30,5 @@ Saldo: 1450.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

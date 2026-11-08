@@ -4,6 +4,8 @@
 
 Modela name y balance e instancia una cuenta.
 
+Crea la clase `CheckingAccount` con los campos `name` y `balance`, crea una cuenta de `Ana` con saldo `1200` y muestra sus datos.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -29,4 +31,5 @@ Saldo: 1200.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

@@ -4,6 +4,8 @@
 
 Retira solo cantidades válidas con saldo suficiente.
 
+Añade el método `withdraw(double amount)`: si la cantidad es positiva y hay saldo suficiente, la resta y muestra `Retirada realizada`; si no, muestra `Fondos insuficientes`. En `main` retira `300` y luego `800`, mostrando el saldo tras cada retirada.
+
 ## Objetivo
 
 - Leer el código base y corregirlo o completarlo.
@@ -31,4 +33,5 @@ Saldo: 700.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
