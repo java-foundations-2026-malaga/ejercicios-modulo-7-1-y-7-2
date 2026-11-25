@@ -10,7 +10,8 @@ public class Actividad03 {
     }
 
     public static void main(String[] args) {
-        deposit(1000);
-        System.out.println("Saldo: " + balance);
+    	CheckingAccount ckgA = new CheckingAccount();
+        ckgA.deposit(1000);
+        System.out.println("Saldo: " + ckgA.balance);
     }
 }

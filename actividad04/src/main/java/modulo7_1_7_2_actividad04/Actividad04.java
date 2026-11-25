@@ -10,6 +10,6 @@ public class Actividad04 {
         Prisoner second = new Prisoner();
         first.name = "Bubba";
         second.name = "Bubba";
-        System.out.println("Objetos iguales: " + (first == second));
+        System.out.println("Mismos datos: " + (first.name.equals(second.name)) +"\nMisma referencia: " + (first == second));
     }
 }

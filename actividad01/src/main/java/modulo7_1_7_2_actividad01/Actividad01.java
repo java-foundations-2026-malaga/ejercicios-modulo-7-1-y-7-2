@@ -1,7 +1,10 @@
 package modulo7_1_7_2_actividad01;
 
 public class Actividad01 {
-    static class CheckingAccount {}
+    static class CheckingAccount {
+    	String name = "";
+        double balance = 0;
+    }
 
     String name;
     double balance;

@@ -7,7 +7,7 @@ public class Actividad02 {
     }
 
     public static void main(String[] args) {
-        CheckingAccount account;
+        CheckingAccount account = new CheckingAccount();
         account.name = "Ana";
         account.balance = 750;
         System.out.println(account.name + ": " + account.balance);

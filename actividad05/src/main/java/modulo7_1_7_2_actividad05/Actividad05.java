@@ -7,7 +7,7 @@ public class Actividad05 {
 
     public static void main(String[] args) {
         Prisoner first = new Prisoner();
-        Prisoner second = first;
+        Prisoner second = new Prisoner();
         first.name = "Bubba";
         second.name = "Twitch";
         System.out.println("Primero: " + first.name);
